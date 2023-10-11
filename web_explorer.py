@@ -5,14 +5,10 @@ from langchain.retrievers.web_research import WebResearchRetriever
 
 import os
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBfApDAudwZZvqiff_J1LHzgJxrBNh-5L0" # Get it at https://console.cloud.google.com/apis/api/customsearch.googleapis.com/credentials
-os.environ["GOOGLE_CSE_ID"] = "51d9532cad96f4b4f" # Get it at https://programmablesearchengine.google.com/
+os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"] # Get it at https://console.cloud.google.com/apis/api/customsearch.googleapis.com/credentials
+os.environ["GOOGLE_CSE_ID"] = st.secrets["GOOGLE_CSE_ID"] # Get it at https://programmablesearchengine.google.com/
 os.environ["OPENAI_API_BASE"] = "https://api.openai.com/v1"
-os.environ["OPENAI_API_KEY"] = "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" # Get it at https://beta.openai.com/account/api-keys
-# os.environ["PINECONE_API_KEY"] = "cd3256b8-4f19-4e35-b92a-1a8b32af0472"
-# os.environ["PINECONE_ENV"] = "asia-southeast1-gcp-free"
-
-
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"] # Get it at https://beta.openai.com/account/api-keys
 
 st.set_page_config(page_title="Interweb Explorer", page_icon="🌐")
 
