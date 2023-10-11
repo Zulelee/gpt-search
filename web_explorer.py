@@ -8,7 +8,7 @@ import os
 os.environ["GOOGLE_API_KEY"] = "AIzaSyBfApDAudwZZvqiff_J1LHzgJxrBNh-5L0" # Get it at https://console.cloud.google.com/apis/api/customsearch.googleapis.com/credentials
 os.environ["GOOGLE_CSE_ID"] = "51d9532cad96f4b4f" # Get it at https://programmablesearchengine.google.com/
 os.environ["OPENAI_API_BASE"] = "https://api.openai.com/v1"
-os.environ["OPENAI_API_KEY"] = "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" # Get it at https://beta.openai.com/account/api-keys
+os.environ["OPENAI_API_KEY"] = "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" # Get it at https://beta.openai.com/account/api-keys
 # os.environ["PINECONE_API_KEY"] = "cd3256b8-4f19-4e35-b92a-1a8b32af0472"
 # os.environ["PINECONE_ENV"] = "asia-southeast1-gcp-free"
 
