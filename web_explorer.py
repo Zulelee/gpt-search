@@ -75,7 +75,7 @@ class PrintRetrievalHandler(BaseCallbackHandler):
             self.container.text(doc.page_content)
 
 
-st.sidebar.image("img/ai.png")
+# st.sidebar.image("img/ai.png")
 st.header("`Interweb Explorer`")
 st.info("`I am an AI that can answer questions by exploring, reading, and summarizing web pages."
     "I can be configured to use different modes: public API or private (no data sharing).`")
